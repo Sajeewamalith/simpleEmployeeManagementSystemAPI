@@ -16,7 +16,7 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int empID;
-    private String name;
+    private String empName;
     private String empMNumber;
     private String empAddress;
 }
